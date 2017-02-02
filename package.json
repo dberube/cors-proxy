@@ -1,0 +1,26 @@
+{
+	"name":        "cors-proxy",
+	"version":     "0.5.0",
+	"description": "Simple CORS proxy",
+	"author":      "David Berube <d@berube.co>",
+	"license":     "MIT",
+	"main":        "server.js",
+	"homepage":    "https://github.com/dberube/cors-proxy#readme",
+	"keywords":    [ "cors", "proxy", "simple" ],
+	"scripts":     {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url":  "https://github.com/dberube/cors-proxy"
+	},
+	"dependencies": {
+		"express": "^4.14.1",
+		"lodash":  "^4.17.4",
+		"request": "^2.79.0"
+	},
+	"engines": {
+		"node": "~6.9.5",
+		"npm":  "~3.10.10"
+	}
+}
