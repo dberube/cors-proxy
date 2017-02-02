@@ -1,10 +1,12 @@
 # Simple CORS Proxy Server
-Launches a very simple CORS proxy server.
+> Launches a very simple CORS proxy server.
 
 ## Installation
-`git clone git@github.com:dberube/cors-proxy.git`
-`cd cors-proxy`
-`npm install`
+```
+git clone git@github.com:dberube/cors-proxy.git
+cd cors-proxy
+npm install
+```
 
 ### Launch the Proxy Server
 From within the `cors-proxy` directory,  simply type `npm start`.
